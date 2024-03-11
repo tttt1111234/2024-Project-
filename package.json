@@ -1,0 +1,11 @@
+{
+  "name": "2024-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --2024-project@1.0.0 sass "
+  },
+  "author": "",
+  "license": "ISC"
+}

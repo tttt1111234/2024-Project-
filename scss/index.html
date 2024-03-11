@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolie</title>
+    <link rel="stylesheet" href="stlye.css" />
+    <link rel="stylesheet" href="scss/mediaqueries.css">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Thomson Aherdo</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"></div>
+      <div class="hambuger-menu">
+        <div class="hambuger-icon" onclick="toggleMenu()"></div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience onclick="onclick="toggleMenu()"></a>Experience</a></li>
+        <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+        <li><a href="#contact onclick="onclick="toggleMenu()">Contact</a></li>
+      </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./Asset/IMG_6819.jpg" alt="Thomson Ahero profile picture">
+      </div>
+      <div class="section_text">
+        <p class="section_text__p1">Hello I'm</p>
+        <h1 class="title">Thomson Aherdo</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" 
+          onclick="window.open('./')">Download CV
+        </button>
+        <button class="btn btn-color-1" 
+          onclick="location.href='./#contact'">Contact info
+        </button>
+        </div>
+        <div id="social-container">
+          <img src="./Asset/download.png" alt="linkedin profile" 
+          class="icon" onclick="location.href='https://linkedin.com">
+
+          <img src="./Asset/download.png" alt=" Github profile" 
+          class="icon" onclick="location.href='https://linkedin.com">
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text_p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-conatainer">
+        <div class="section__pic-container">
+          <img src="./Asset/A012700-R1-28-27A.JPG" alt="Profile picture" class="about-pic">
+        </div>
+        <div class="about-details-container">
+          <div  class="about-containers">
+            <div class="details-container">
+
+              <img src="./Asset/download.png" alt="Experience icon" class="icon">
+              <h3>Experience</h3>
+              <p>2+years <br>Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img src="./Asset/download.png" alt="Education icon" class="icon">
+              <h3>Education</h3>
+              <p>B.Sc Bachelors <br>Frontend Development</p>
+            </div>
+          </div>
+          <div class="text-container">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae non voluptates eaque dolores quod distinctio molestiae consequatur iste exercitationem odit modi dicta sunt deserunt, voluptatibus aspernatur sapiente accusantium amet perferendis asperiores tenetur nostrum recusandae. Quidem vero, laboriosam nobis ad ducimus dolorum quisquam magnam, quaerat nostrum officia non illum nulla eum?
+          </div>
+        </div>
+      </div>
+      <img src="./Asset/download.png" alt="Arrow icon" class="icon-arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="Experience">
+      <p class="section__text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-containers">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./Asset/customer-review_7619177.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>
+                    HTML
+                  </h3>
+                  <P>intermediate</P>
+                </div>
+              </article>
+              <article>
+                <img src="./Asset/customer-review_7619177.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>
+                    CSS
+                  </h3>
+                  <P>intermediate</P>
+                </div>
+              </article>
+              <article>
+                <img src="./Asset/customer-review_7619177.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>
+                    SASS
+                  </h3>
+                  <P>Basic</P>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project">
+      <p class="section__text_p1">Browse My Recent</p>
+      <h1 class="title">Project</h1>
+      <div class="experience-details-containers">
+        <div class="about-containers ">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./Asset/Screenshot from 2024-01-17 09-04-08.png" alt="Project 1" class="projrct-img">
+          </div>
+          <h2 class="experience-sub-title projrct-title">Project one</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https:/git@github.com:tttt1111234/2024-Project-.git'">Github</button>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section ids="contact">
+      <p class="section__text_p1">Get In Touch</p>
+      <h1 class="title"> Contact Me</h1>
+      <div class="contact__info_upper-container">
+        <div class="contact-info-container">
+          <img src="./Asset/download.png" alt="Email icon" class="icon contact-icon">
+          <p><a href="thomson:examplemail@gmail.com">Email@.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./Asset/LinkedIn_icon_circle.svg" alt="linkedin" class="icon contact-icon">
+        </div>
+        <p><a href="https://">linkedin</a></p>
+      </div>
+    </section>
+    <footer>
+      <nav>
+<div class="nav-links-container">
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#project">Project</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
+<p>Copyright &#169; 2024 Thonson Aherdo. All rights Reserved.</p>
+    </nav>
+    
+  </footer>
+    <script src="scss/script.js"></script>
+  </body>
+</html>
